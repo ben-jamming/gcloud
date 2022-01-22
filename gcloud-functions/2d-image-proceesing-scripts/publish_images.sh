@@ -1,4 +1,4 @@
-gcloud functions deploy ocr-save \
+gcloud functions deploy detect_labels \
 --runtime python39 \
 --trigger-topic image-data \
 --entry-point save_result \

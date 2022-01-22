@@ -1,4 +1,4 @@
-gcloud functions deploy ocr-extract \
+gcloud functions deploy detect_labels \
 --runtime python39 \
 --trigger-bucket imagecollection \
 --entry-point process_image \
