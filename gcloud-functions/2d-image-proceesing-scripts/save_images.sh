@@ -1,4 +1,4 @@
-gcloud functions deploy save_labels \
+gcloud functions deploy save_result \
 --runtime python39 \
 --trigger-topic image-data \
 --entry-point save_result \
